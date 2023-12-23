@@ -1,0 +1,11 @@
+#include<stdio.h>
+    
+int main(){
+    
+    int x = 10, y = 15 ;
+    if ( x % 2 = y % 3 )
+        printf ( "Carpathians\n" ) ;
+    return 0;
+}
+
+/* Doesn't Compile as it is using '=' operator instead of '==' and modulo at the same time which gives error*/
